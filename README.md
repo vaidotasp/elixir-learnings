@@ -15,8 +15,7 @@ a = 1 -> ok
 Pattern matching = A pattern (left side) is matched if the values (the right side) have the same structure and if each term in the pattern can be matched to the corresponding term in the values.
 
 examples:
-
-```
+```elixir
 list = [1, 2, [3, 4, 5]]
 [a, b, c] = list
 
